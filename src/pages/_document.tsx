@@ -1,5 +1,10 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
+/**
+ * Document class. This file is loaded once and can be used
+ * to pre-load stuff that is unmutable and repeatdly used
+ * throughout the application, i.e. fonts
+ */
 export default class MyDocument extends Document {
     render() {
         return (
